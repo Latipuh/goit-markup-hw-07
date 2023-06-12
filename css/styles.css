@@ -226,8 +226,12 @@ padding-right: 0px; }
       padding: 0;
       
   }
-  .mobile-menu-close-btn:focus, mobile-menu-close-btn:hover, mobile-menu-buttom:focus, mobile-menu-buttom:hover{
-    fill:var(--button-color)
+  mobile-menu-buttom{
+    background-color: transparent;
+    border: none;
+  }
+   mobile-menu-buttom:focus, mobile-menu-buttom:hover {
+    fill:var(--button-color);
   }
 
   .mobile-menu-link {
