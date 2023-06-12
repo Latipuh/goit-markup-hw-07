@@ -20,36 +20,106 @@
 
 <body>
         <!-- Шапка сайта -->
-    <header class="container-header">
+<header class="container-header">
     <div class="container ">
         <nav class="main-nav">
             <a href="./index.html" class="logo link">Web<span class="accent">Studio</span></a>
 
             <ul class="site-nav list">
-                <li class="item">
-                    <a href="./index.html" class="link">Studio</a>
+                <li class="item ">
+                    <a href="./index.html" class="link underlined">Studio</a>
                 </li>
                 <li class="item">
-                    <a href="./portfolio.html" class="link underlined">Portfolio</a>
+                    <a href="./portfolio.html" class="link">Portfolio</a>
                 </li>
                 <li class="item">
                     <a href="" class="link">Contacts</a>
                 </li>
             </ul>
+
         </nav>
+
         <address class="address">
             <ul class="list">
-                <li class="item">
+                <li class="item mail">
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                 </li>
-                <li class="item">
+                <li class="item tel">
                     <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
-    </div>
+        <button type="button" class="mobile-menu-buttom js-open-menu">
+            <svg class="mobile-menu-icon" width="32" height="32" aria-label="перемикач мобільного меню">
+                <use class="icon-menu" href="./images/mobile-menu.svg#icon-burger"></use>
+            </svg>
+        </button>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu-container">
+                <button type="button" class="mobile-menu-close-btn js-close-menu">
+                    <svg class="mobele-menu-close-icon " width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
 
-    </header>
+
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-list-item list ">
+                        <a class="mobile-menu-link link current-mobile" href="">Studio</a>
+                    </li>
+                    <li class="mobile-menu-list-item list">
+                        <a class="mobile-menu-link link" href="">Portfolio</a>
+                    </li>
+                    <li class="mobile-menu-list-item list">
+                        <a class="mobile-menu-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+                <div class="mob-adress-social">
+                    <address class="mobile-menu-adress">
+                        <ul class="mobile-adress-list list">
+                            <li class="mobile-adress-list-item tel-item">
+                                <a class="mobile-contact-list mob-menu-tel link" href="tel:+110001111111">+11 (000)
+                                    111-11-11</a>
+                            </li>
+                            <li class="mobile-adress-list-item">
+                                <a class="mobile-contact-list mob-menu-email link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                    <ul class="mob-menu-social-list list">
+                        <li class="mob-menu-social-list-item">
+                            <a href="" class="mob-menu-social-list-link">
+                                <svg class="mob-menu-social-list-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-social-list-item">
+                            <a href="" class="mob-menu-social-list-link">
+                                <svg class="mob-menu-social-list-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-social-list-item">
+                            <a href="" class="mob-menu-social-list-link">
+                                <svg class="mob-menu-social-list-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-social-list-item">
+                            <a href="" class="mob-menu-social-list-link">
+                                <svg class="mob-menu-social-list-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+</header>
         <main>
             <section class="portfolio">
                 <div class="container">
