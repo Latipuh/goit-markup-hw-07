@@ -716,6 +716,8 @@ column-gap: 24px;}
     .footer-form-input{
         width: 100%;
         margin-bottom: 16px;
+        background-color: transparent;
+        height: 15px;
         }
     .footer-form-submit {
         display: inline-flex;
@@ -770,7 +772,6 @@ column-gap: 24px;}
              width: 264px;
              height: 40px;
              border: 1px solid #FFFFFF;
-             background-color: transparent;
              font-size: 12px;
              line-height: 1.5;
              letter-spacing: 0.04em;
