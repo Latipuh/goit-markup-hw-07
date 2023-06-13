@@ -900,7 +900,9 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 .footer-form-input::placeholder {
     color: #FFFFFF;
 }
-
+.footer-text{
+    padding-bottom: 16px;
+}
 @media screen and (min-width: 768px) {
     .footer {
         padding-top: 100px;
@@ -963,6 +965,9 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
     .footer-form-input {
         margin-bottom: 0px;
+    }
+    .footer-margin{
+        padding: 0px;
     }
 }
 
