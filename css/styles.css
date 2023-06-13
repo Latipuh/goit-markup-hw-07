@@ -425,7 +425,7 @@ mobile-menu-buttom:hover {
     background-color: var(--title-text-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/background-image.jpg);
+        url(../images/background-image-mob.jpg);
     /* background-image: url(../images/people-office.jpg); */
     background-repeat: no-repeat;
     background-position: center;
@@ -436,27 +436,55 @@ mobile-menu-buttom:hover {
     text-align: center;
     /* rgba(46, 47, 66, 0.7) */
 }
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 427px),
-(min-resolution: 192dpi) and (max-width: 767px),
-(min-resolution: 2dppx) and (max-width: 767px) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/background-image-tab@2x.jpg);
-        ;
+/* зображення мобілки Х2 */
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .background {
+        background-image: 
+        linear-gradient(
+         rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), 
+         url(../images/background-mob-2x.jpg);
+        max-width: 428px;
+        height: 432px;
+    }
+}
+/* зображення планшету Х1 */
+@media screen and (min-width: 768px) {
+    .background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tab.jpg);
+        min-width: 768px;
+    }
+}
+/* зображення планшету Х2 */
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-tab-2x.jpg);
     }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-(min-resolution: 192dpi) and (max-width: 767px),
-(min-resolution: 2dppx) and (max-width: 767px) {
-    .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/background-image@2x.jpg);
-        ;
+/* зображення ПК Х1 */
+@media screen and (min-width: 1158px) {
+    .background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-desk.jpg);
+        max-width: 1440px;
+
     }
 }
+
+/* зображення ПК Х2 */
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .background {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adapt/background-desk-2x.jpg);
+    }
+}
+
+
 @media screen and (max-width: 1158px) {
     .hero {
         padding-top: 188px;
