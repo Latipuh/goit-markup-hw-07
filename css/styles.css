@@ -568,7 +568,12 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+
 }
+@media screen and (min-width: 768px) {
+.strat-list .tittle-reg {
+        text-align: start;
+        }}
 
 .icon {
     display: none;
@@ -891,7 +896,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     transition: background-color var(--funktion);
     cursor: pointer;
 }
- 
+
 .footer-form-btn-icon {
     margin-left: 16px;
     fill: var(--primary-white-color)
@@ -925,6 +930,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
     .footer-form-title {
         margin-top: 0px;
+        font-weight: 500;
     }
 
     .footer-form {
