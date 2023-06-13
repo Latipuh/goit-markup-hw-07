@@ -891,7 +891,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     transition: background-color var(--funktion);
     cursor: pointer;
 }
-
+ 
 .footer-form-btn-icon {
     margin-left: 16px;
     fill: var(--primary-white-color)
