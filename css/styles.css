@@ -98,11 +98,13 @@ h3 {
     text-transform: uppercase;
     color: var(--accent-color);
     margin-right: 0px;
+    padding: 24px 0px;
 }
 
 @media screen and (min-width: 768px) {
     .logo {
         margin-right: 121px;
+   
     }
 
     .site-nav {
@@ -544,9 +546,6 @@ mobile-menu-buttom:hover {
 
 
 @media screen and (min-width: 1158px) {
-    .strategy-container {
-        padding-bottom: 120px;
-    }
 
     .strat-list .tittle-reg {
         font-weight: 500;
@@ -803,7 +802,6 @@ mobile-menu-buttom:hover {
 }
 
 .footer-margin {
-    margin-bottom: 72px;
     padding-bottom: 72px;
 }
 
