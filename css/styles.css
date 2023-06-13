@@ -437,23 +437,27 @@ mobile-menu-buttom:hover {
     /* rgba(46, 47, 66, 0.7) */
 }
 /* зображення мобілки Х2 */
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
-    .background {
-        background-image: 
-        linear-gradient(
-         rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)), 
-         url(../images/background-image-mob-2x.jpg);
-        max-width: 428px;
-        height: 432px;
-    }
+@media      screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+            screen and (min-resolution: 192dpi) and (max-width: 767px),
+            screen and (min-resolution: 2dppx) and (max-width: 767px) {
+                .hero {
+                    background-image: 
+                    linear-gradient(
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), 
+                    url(../images/background-image-mob@2x.jpg);
+                    max-width: 428px;
+                    height: 432px;
+                }
 }
 /* зображення планшету Х1 */
 @media screen and (min-width: 768px) {
-    .background {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image-tab.jpg);
+    .hero {
+        background-image: 
+        linear-gradient(
+        rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), 
+         url(../images/background-image-tab.jpg);
         min-width: 768px;
     }
 }
@@ -461,15 +465,21 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    .background {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image-tab@2x.jpg);
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/background-image-tab@2x.jpg);
     }
 }
 
 /* зображення ПК Х1 */
 @media screen and (min-width: 1158px) {
-    .background {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-image.jpg);
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)), 
+            url(../images/background-image.jpg);
         max-width: 1440px;
 
     }
@@ -477,11 +487,14 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 /* зображення ПК Х2 */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
-screen and (min-resolution: 192dpi) and (min-width: 1158px),
-screen and (min-resolution: 2dppx) and (min-width: 1158px) {
-    .background {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/adapt/background-image-tab@2x.jpg);
-    }
+        screen and (min-resolution: 192dpi) and (min-width: 1158px),
+        screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+        .hero {
+             background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7), 
+                rgba(46, 47, 66, 0.7)), 
+                url(../images/background-image@2x.jpg);
+                }
 }
 
 
@@ -538,7 +551,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 /* заголовок загальний рівень3 */
  .strategy {
-     padding: 96px 0px;
+     padding-top: 96px;
  }
 
 .tittle-reg {
@@ -565,8 +578,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     font-weight: 500;
     font-size: 16px;
 }
-        .strat-list {
+.strat-list {
         padding-bottom: 72px;
+        }
+        .strat-list:last-child{
+            padding-bottom: 0px;
         }
 @media screen and (min-width: 768px) {
     .strategy-container .list {
@@ -655,8 +671,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 
 .our-team .team {
-    margin: auto;
-    margin-bottom: 72px;
     width: 100%;
     max-width: 264px;
     background-color: var(--primary-white-color);
