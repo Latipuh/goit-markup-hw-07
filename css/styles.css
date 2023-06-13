@@ -436,7 +436,7 @@ mobile-menu-buttom:hover {
     text-align: center;
     /* rgba(46, 47, 66, 0.7) */
 }
-/* зображення мобілки Х2 */
+/* фонове зображення мобілки Х2 */
 @media      screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
             screen and (min-resolution: 192dpi) and (max-width: 767px),
             screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -450,7 +450,7 @@ mobile-menu-buttom:hover {
                     height: 432px;
                 }
 }
-/* зображення планшету Х1 */
+/*фонове зображення планшету Х1 */
 @media screen and (min-width: 768px) {
     .hero {
         background-image: 
@@ -461,7 +461,7 @@ mobile-menu-buttom:hover {
         min-width: 768px;
     }
 }
-/* зображення планшету Х2 */
+/*фонове зображення планшету Х2 */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -473,7 +473,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     }
 }
 
-/* зображення ПК Х1 */
+/*фонове зображення ПК Х1 */
 @media screen and (min-width: 1158px) {
     .hero {
         background-image: linear-gradient(
@@ -485,7 +485,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     }
 }
 
-/* зображення ПК Х2 */
+/*фонове зображення ПК Х2 */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
         screen and (min-resolution: 192dpi) and (min-width: 1158px),
         screen and (min-resolution: 2dppx) and (min-width: 1158px) {
